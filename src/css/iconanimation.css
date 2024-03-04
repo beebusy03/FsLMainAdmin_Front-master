@@ -1,0 +1,446 @@
+/*search animation*/
+.faSearchHovered {
+    animation: heart 0.5s cubic-bezier(0.36, 0.07, 0.57, 0.99) infinite;
+
+
+  }
+
+  @keyframes heart {
+    0% {
+      transform: scale(1.5);
+    }
+    20% {
+      transform: scale(2);
+    }
+    30% {
+      transform: scale(1.5);
+    }
+    40% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+  /*restanimation*/
+  .faResetHovered{
+	animation: refresh 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+  @keyframes refresh {
+	from {
+		transform: scale(1.5) rotate(0);
+	}
+	to {
+		transform: scale(1.5) rotate(360deg);
+	}
+}
+  
+/*arrowback*/
+.faarrowrightHovered{
+	animation: arrow-right .5s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes arrow-right {
+	0% {
+		transform: scale(1.5) translateX(0);
+	}
+	33% {
+		transform: scale(1.5) translateX(-5px);
+	}
+	66% {
+		transform: scale(1.5) translateX(5px);
+	}
+	100% {
+		transform: scale(1.5) translateX(0);
+	}
+}
+/*qrcode*/
+.faqrcodehover {
+	transform-origin: 79% 26%;
+	animation: wrench 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes wrench {
+	0% {
+		transform: scale(1.5) rotate(0);
+	}
+	20% {
+		transform: scale(1.5) rotate(30deg);
+	}
+	30% {
+		transform: scale(1.5) rotate(-20deg);
+	}
+	50% {
+		transform: scale(1.5) rotate(30deg);
+	}
+	60% {
+		transform: scale(1.5) rotate(-20deg);
+	}
+	100% {
+		transform: scale(1.5) rotate(0);
+	}
+}
+
+/*reject*/
+.fatimeshover {
+	animation: times 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+
+@keyframes times {
+	0% {
+		transform: scale(1.5) translateX(0);
+	}
+	15% {
+		transform: scale(1.5) translateX(5px);
+	}
+	30% {
+		transform: scale(1.5) translateX(-5px);
+	}
+	45% {
+		transform: scale(1.5) translateX(3px);
+	}
+	60% {
+		transform: scale(1.5) translateX(-3px);
+	}
+	75% {
+		transform: scale(1.5) translateX(0);
+	}
+	100% {
+		transform: scale(1.5) translateX(0);
+	}
+}
+
+
+/*Preview*/
+.famoushover {
+	animation: mouse-pointer 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes mouse-pointer {
+	0% {
+		transform: scale(1.5);
+	}
+	20% {
+		transform: scale(1.5);
+	}
+	22.5% {
+		transform: scale(1.2);
+	}
+	32.5% {
+		transform: scale(1.2);
+	}
+	35% {
+		transform: scale(1.5);
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}
+/*save*/
+.farockethover {
+	animation: rocket 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes rocket {
+	0% {
+		transform: scale(1.5) translate(0, 0);
+		opacity: 1;
+	}
+	5% {
+		transform: scale(1.5) translate(2px, 0);
+		opacity: 1;
+	}
+	10% {
+		transform: scale(1.5) translate(1px, -2px);
+		opacity: 1;
+	}
+	15% {
+		transform: scale(1.5) translate(3px, -1px);
+		opacity: 1;
+	}
+	20% {
+		transform: scale(1.5) translate(2px, -3px);
+		opacity: 1;
+	}
+	25% {
+		transform: scale(1.5) translate(4px, -2px);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.5) translate(10px, -10px);
+		opacity: 0;
+	}
+	51% {
+		transform: scale(1.5) translate(-10px, 10px);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1.5) translate(0, 0);
+		opacity: 1;
+	}
+}
+/*deleted*/
+.fatimeshover {
+	animation: times 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes times {
+	0% {
+		transform: scale(1.5) translateX(0);
+	}
+	15% {
+		transform: scale(1.5) translateX(5px);
+	}
+	30% {
+		transform: scale(1.5) translateX(-5px);
+	}
+	45% {
+		transform: scale(1.5) translateX(3px);
+	}
+	60% {
+		transform: scale(1.5) translateX(-3px);
+	}
+	75% {
+		transform: scale(1.5) translateX(0);
+	}
+	100% {
+		transform: scale(1.5) translateX(0);
+	}
+}
+/*setting*/
+.facoghover {
+	animation: cog 5s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes cog {
+	0% {
+		transform: scale(1.5) rotate(0);
+	}
+	10% {
+		transform: scale(1.5) rotate(45deg);
+	}
+	17% {
+		transform: scale(1.5) rotate(45deg);
+	}
+	20% {
+		transform: scale(1.5) rotate(90deg);
+	}
+	27% {
+		transform: scale(1.5) rotate(90deg);
+	}
+	30% {
+		transform: scale(1.5) rotate(135deg);
+	}
+	37% {
+		transform: scale(1.5) rotate(135deg);
+	}
+	40% {
+		transform: scale(1.5) rotate(180deg);
+	}
+	47% {
+		transform: scale(1.5) rotate(180deg);
+	}
+	50% {
+		transform: scale(1.5) rotate(225deg);
+	}
+	57% {
+		transform: scale(1.5) rotate(225deg);
+	}
+	60% {
+		transform: scale(1.5) rotate(270deg);
+	}
+	67% {
+		transform: scale(1.5) rotate(270deg);
+	}
+	70% {
+		transform: scale(1.5) rotate(315deg);
+	}
+	77% {
+		transform: scale(1.5) rotate(315deg);
+	}
+	80% {
+		transform: scale(1.5) rotate(360deg);
+	}
+	100% {
+		transform: scale(1.5) rotate(360deg);
+	}
+}
+/*lock*/
+.falockhover {
+	animation: lock 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes lock {
+	0% {
+		transform: scale(1.5) translateY(0);
+	}
+	20% {
+		transform: scale(1.5) translateY(-5px);
+	}
+	30% {
+		transform: scale(1.5) translateY(5px);
+	}
+	50% {
+		transform: scale(1.5) translateY(-5px);
+	}
+	60% {
+		transform: scale(1.5) translateY(5px);
+	}
+	100% {
+		transform: scale(1.5) translateY(0);
+	}
+}
+
+
+/*pw*/
+.faeyehover {
+	animation: blink 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+@keyframes blink {
+	0% {
+	  transform:scale(1);
+	}
+	5% { transform:scale(1,0) }
+	10% {
+	  transform:scale(1)
+	}
+  }
+  /*eye animation*/
+.eye:hover {
+  animation: squeeze 0.8s infinite; /* Increased the animation duration to 2s */
+}
+
+@keyframes squeeze {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(10px) scaleY(1.5);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+.icon-buttonrest {
+	/* Set your button text color */
+	border: none;
+  
+	position: relative;
+	overflow: hidden;
+	width: 190px;
+	/* Adjust the width as needed */
+	height: 42px;
+	/* Adjust the height as needed */
+	
+	/* Half of the height to make it round only from the sides */
+  
+	border: none;
+	/* Remove the border */
+	cursor: pointer;
+	/* Change the cursor on hover */
+  }
+  .iconrest {
+	position: absolute;
+	left: -80px;
+	top: 12px;
+	/* Adjust the position to hide the icon */
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+  }
+  
+  .icon-buttonrest:hover .iconrest {
+	left: 10px;
+	/* Adjust the position to reveal the icon */
+	opacity: 1;
+  }
+  
+
+
+  .icon-buttonback {
+	/* Set your button text color */
+	border: none;
+  
+	position: relative;
+	overflow: hidden;
+	width: 90px;
+	/* Adjust the width as needed */
+	height: 42px;
+	/* Adjust the height as needed */
+	
+	/* Half of the height to make it round only from the sides */
+  
+	border: none;
+	/* Remove the border */
+	cursor: pointer;
+	/* Change the cursor on hover */
+  }
+  .iconrest {
+	position: absolute;
+	left: -80px;
+	top: 12px;
+	/* Adjust the position to hide the icon */
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+  }
+  
+  .icon-buttonback:hover .iconrest {
+	left: 10px;
+	/* Adjust the position to reveal the icon */
+	opacity: 1;
+  }
+  /*approve animation on button*/
+
+.buttonapprove {
+	border: none;
+	width: 124px;
+	height: 42px;
+	cursor: pointer;
+	position: relative; 
+  }
+  
+  .approve {
+	position: absolute;
+	top: 35%; /* Center the icon vertically */
+	left: 80%; /* Center the icon horizontally */
+   
+   
+	transition: 0.3s ease-in-out;
+  }
+  .buttonapprove:hover .approve {
+	  animation: rocket 1s cubic-bezier(.36,.07,.57,.99) infinite;
+  }
+  @keyframes rocket {
+	  0% {
+		  transform: scale(1.5) translate(0, 0);
+		  opacity: 1;
+	  }
+	  5% {
+		  transform: scale(1.5) translate(2px, 0);
+		  opacity: 1;
+	  }
+	  10% {
+		  transform: scale(1.5) translate(1px, -2px);
+		  opacity: 1;
+	  }
+	  15% {
+		  transform: scale(1.5) translate(3px, -1px);
+		  opacity: 1;
+	  }
+	  20% {
+		  transform: scale(1.5) translate(2px, -3px);
+		  opacity: 1;
+	  }
+	  25% {
+		  transform: scale(1.5) translate(4px, -2px);
+		  opacity: 1;
+	  }
+	  50% {
+		  transform: scale(1.5) translate(10px, -10px);
+		  opacity: 0;
+	  }
+	  51% {
+		  transform: scale(1.5) translate(-10px, 10px);
+		  opacity: 0;
+	  }
+	  100% {
+		  transform: scale(1.5) translate(0, 0);
+		  opacity: 1;
+	  }
+  }
+  /*end*/
+  
